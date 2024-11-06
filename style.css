@@ -9,13 +9,13 @@
   }
   
   #header.scrolled {
-    background-color: #000000;
+    background-color: #0E0D05;
   }
   
   /* Estilos para o menu mobile */
   .mobile-menu {
     position: fixed;
-    top: 80px; /* Altura do header */
+    top: 160px; /* Altura do header */
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.95);
