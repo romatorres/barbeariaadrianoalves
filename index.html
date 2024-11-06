@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Adriano Alves - Serviços de barbearia profissional">
+    <meta name="keywords" content="barbearia, corte masculino, barba, corte feminino, Bahia, Feira de Santana">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Barbearia Adriano Alves</title>
+  </head>
+  <body>
+    
+    <!-- Header -->
+    <header id="header" class="fixed w-full z-50 transition-colors duration-300">
+      <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center h-20">
+          <a href="#" class="text-2xl font-bold text-white"><img src="/img/logo.png" alt="Logo Marca"></a>
+
+          <!-- Menu Desktop -->
+          <nav class="hidden md:block">
+              <ul class="flex space-x-8">
+                  <li><a href="#home" class="text-white hover:text-gray-300">Home</a></li>
+                  <li><a href="#servicos" class="text-white hover:text-gray-300">Serviços</a></li>
+                  <li><a href="#quem-somos" class="text-white hover:text-gray-300">Quem Somos</a></li>
+                  <li><a href="#nosso-time" class="text-white hover:text-gray-300">Nosso Time</a></li>
+                  <li><a href="#contatos" class="text-white hover:text-gray-300">Contatos</a></li>
+              </ul>
+          </nav>
+
+          <!-- Botão Menu Mobile -->
+          <div class="hamburger-menu md:hidden" aria-label="Menu" aria-expanded="false">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
+      </div>
+
+      <!-- Menu Mobile -->
+      <nav class="mobile-menu">
+          <ul class="flex flex-col items-center py-6 space-y-4">
+              <li class="w-full">
+                  <a href="#home"
+                      class="mobile-link text-white hover:text-gray-300 block py-2 text-center text-lg">Home</a>
+              </li>
+              <li class="w-full">
+                  <a href="#servicos"
+                      class="mobile-link text-white hover:text-gray-300 block py-2 text-center text-lg">Serviços</a>
+              </li>
+              <li class="w-full">
+                  <a href="#quem-somos"
+                      class="mobile-link text-white hover:text-gray-300 block py-2 text-center text-lg">Quem Somos</a>
+              </li>
+              <li class="w-full">
+                  <a href="#nosso-time"
+                      class="mobile-link text-white hover:text-gray-300 block py-2 text-center text-lg">Nosso Time</a>
+              </li>
+              <li class="w-full">
+                  <a href="#contatos"
+                      class="mobile-link text-white hover:text-gray-300 block py-2 text-center text-lg">Contatos</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+
+  <!-- Hero Section -->
+   <section id="home" class="relative h-[600px] md:h-[700px] lg:h-[800px] bg-hero bg-cover bg-center bg-no-repeat">
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div class="relative max-w-[1280px] mx-auto px-4 md:px-6 h-full flex items-center">
+          <div class="text-white w-full md:w-3/4 lg:w-3/4">
+              <h1 class="text-3xl md:text-4xl lg:text-8xl font-primary text-primary mb-4">Corte perfeito, estilo único</h1>
+              <p class="text-base md:text-lg lg:text-4xl mb-8 max-w-3xl font-secondary text-secondary ">Desperte seu estilo com nossos cortes personalizados. Agende agora e transforme sua aparência..</p>
+              <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+                  <a href="#" class="w-full sm:w-auto bg-white text-black px-8 py-3 rounded-full font-semibold text-center
+                     hover:bg-gray-200 transition-colors duration-300">
+                      Agende um Horário
+                  </a>
+                  <div class="flex space-x-6 mt-4 sm:mt-0">
+                      <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                          <i class="fab fa-x-twitter"></i>
+                      </a>
+                      <a href="#" class="text-white hover:text-gray-300 text-2xl">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Serviços Section -->
+  <section id="servicos" class="py-12 md:py-16 lg:py-20">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">Serviços</h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8 md:mb-12">
+              <!-- Card 1 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-cut text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Corte Moderno</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Cortes modernos personalizados para seu estilo, incluindo degradê,
+                      undercut e texturas contemporâneas.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 45,00</p>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-razor text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Barba Tradicional</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Modelagem completa da barba com toalha quente, óleo essencial
+                      e finalização perfeita.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 35,00</p>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-shower text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Hidratação</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Tratamento completo para cabelo e barba com produtos premium
+                      para máxima hidratação.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 55,00</p>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-paint-brush text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Coloração</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Coloração profissional para cabelo e barba com produtos de
+                      alta qualidade.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 70,00</p>
+              </div>
+
+              <!-- Card 5 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-magic text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Tratamento Capilar</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Tratamentos especializados para queda, oleosidade e
+                      fortalecimento dos fios.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 85,00</p>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 flex flex-col h-full">
+                  <div class="mb-4">
+                      <i class="fas fa-fire text-2xl md:text-3xl text-gray-800"></i>
+                  </div>
+                  <h3 class="text-lg md:text-xl font-bold mb-2">Combo Completo</h3>
+                  <p class="text-gray-600 mb-4 flex-grow">Corte + barba + hidratação. O pacote completo para você
+                      sair ainda mais elegante.</p>
+                  <p class="text-lg md:text-xl font-bold">R$ 120,00</p>
+              </div>
+          </div>
+
+          <!-- Botões -->
+          <div class="flex flex-col sm:flex-row justify-center gap-4 sm:space-x-6">
+              <a href="#" class="bg-black text-white px-8 py-3 rounded-full font-semibold text-center
+                 hover:bg-gray-800 transition-colors duration-300">
+                  Agende um Horário
+              </a>
+              <a href="#" class="border-2 border-black text-black px-8 py-3 rounded-full font-semibold text-center
+                 hover:bg-black hover:text-white transition-colors duration-300">
+                  Todos os Serviços
+              </a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Quem Somos Section -->
+  <section id="quem-somos" class="py-12 md:py-16 lg:py-20 bg-gray-50">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+          <h2 class="text-3xl md:text-4xl font-bold mb-6 md:mb-8">Quem Somos</h2>
+          <p class="text-base md:text-lg text-gray-700 leading-relaxed max-w-3xl">
+              Fundada em 2010 por Adriano Alves, nossa barbearia nasceu de uma paixão genuína pela arte
+              da barbearia tradicional combinada com técnicas modernas. Com mais de uma década de
+              experiência, construímos nossa reputação sobre os pilares da excelência no atendimento e
+              qualidade incomparável nos serviços.
+          </p>
+      </div>
+  </section>
+
+  <!-- Nosso Time Section -->
+  <section id="nosso-time" class="py-12 md:py-16 lg:py-20">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 md:mb-6">Nosso Time</h2>
+          <p class="text-base md:text-lg text-gray-700 text-center max-w-2xl mx-auto mb-8 md:mb-12">
+              Conheça nossa equipe de profissionais altamente qualificados, prontos para
+              oferecer o melhor em serviços de barbearia e cuidados masculinos.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              <!-- Card Membro 1 -->
+              <div class="bg-white rounded-lg shadow-lg overflow-hidden relative">
+                  <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                      <a href="#" class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </div>
+                  <div class="aspect-square">
+                      <img src="/api/placeholder/300/300" alt="Membro da Equipe" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="p-4 md:p-6">
+                      <h3 class="text-lg md:text-xl font-bold mb-2">Nome do Profissional</h3>
+                      <p class="text-gray-600">Cargo</p>
+                  </div>
+              </div>
+
+              <!-- Card Membro 2 -->
+              <div class="bg-white rounded-lg shadow-lg overflow-hidden relative">
+                  <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </div>
+                  <div class="aspect-square">
+                      <img src="/api/placeholder/300/300" alt="Ricardo Silva" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="p-6">
+                      <h3 class="text-xl font-bold mb-2">Ricardo Silva</h3>
+                      <p class="text-gray-600">Especialista em Cortes</p>
+                  </div>
+              </div>
+
+              <!-- Card Membro 3 -->
+              <div class="bg-white rounded-lg shadow-lg overflow-hidden relative">
+                  <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-x-twitter"></i>
+                      </a>
+                  </div>
+                  <div class="aspect-square">
+                      <img src="/api/placeholder/300/300" alt="Pedro Santos" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="p-6">
+                      <h3 class="text-xl font-bold mb-2">Pedro Santos</h3>
+                      <p class="text-gray-600">Barbeiro Senior</p>
+                  </div>
+              </div>
+
+              <!-- Card Membro 4 -->
+              <div class="bg-white rounded-lg shadow-lg overflow-hidden relative">
+                  <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#"
+                          class="text-white hover:text-gray-300 bg-black bg-opacity-50 rounded-full w-8 h-8 flex items-center justify-center transition-colors duration-300">
+                          <i class="fab fa-facebook"></i>
+                      </a>
+                  </div>
+                  <div class="aspect-square">
+                      <img src="/api/placeholder/300/300" alt="Lucas Oliveira" class="w-full h-full object-cover" />
+                  </div>
+                  <div class="p-6">
+                      <h3 class="text-xl font-bold mb-2">Lucas Oliveira</h3>
+                      <p class="text-gray-600">Especialista em Barba</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Seção Contatos -->
+  <section id="contatos" class="py-12 md:py-16 lg:py-20 bg-gray-50">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+          <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-12">Contatos</h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Endereço -->
+              <div class="text-center">
+                  <h3 class="text-lg md:text-xl font-bold mb-4">Endereço</h3>
+                  <p class="text-gray-600 mb-6">
+                      Rua das Palmeiras, 123<br>
+                      Centro - São Paulo/SP<br>
+                      CEP: 01234-567
+                  </p>
+                  <a href="#" class="inline-flex items-center px-6 py-3 bg-black text-white rounded-full 
+                     hover:bg-gray-800 transition-colors duration-300">
+                      <i class="fas fa-map-marker-alt mr-2"></i>
+                      Ver Localização
+                  </a>
+              </div>
+
+              <!-- Horário -->
+              <div class="text-center">
+                  <h3 class="text-xl font-bold mb-4">Horário de Funcionamento</h3>
+                  <div class="text-gray-600">
+                      <p class="mb-4">
+                          <strong>Segunda a Sexta</strong><br>
+                          08:00 às 20:00
+                      </p>
+                      <p>
+                          <strong>Sábado</strong><br>
+                          08:00 às 20:00
+                      </p>
+                  </div>
+              </div>
+
+              <!-- Contatos -->
+              <div class="text-center">
+                  <h3 class="text-xl font-bold mb-4">Contatos</h3>
+                  <p class="text-gray-600 mb-4">
+                      contato@adrianoalves.com
+                  </p>
+                  <a href="#" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-6">
+                      <i class="fab fa-whatsapp text-2xl mr-2"></i>
+                      (11) 99999-9999
+                  </a>
+                  <div class="flex justify-center space-x-4">
+                      <a href="#" class="text-gray-600 hover:text-gray-900">
+                          <i class="fab fa-instagram text-2xl"></i>
+                      </a>
+                      <a href="#" class="text-gray-600 hover:text-gray-900">
+                          <i class="fab fa-facebook text-2xl"></i>
+                      </a>
+                      <a href="#" class="text-gray-600 hover:text-gray-900">
+                          <i class="fab fa-x-twitter text-2xl"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-6">
+      <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+          <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+              <div class="text-xl md:text-2xl font-bold">
+                  Adriano Alves
+              </div>
+              <div class="text-center text-sm md:text-base text-gray-400">
+                  © 2024 Adriano Alves. Todos os direitos reservados.
+              </div>
+              <div class="text-base md:text-lg font-semibold">
+                  RomaTorres
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
