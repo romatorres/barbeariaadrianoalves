@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Ubuntu:wght@300;400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Barbearia Adriano Alves</title>
 </head>
 
@@ -195,9 +196,9 @@
     </section>
 
     <!-- Quem Somos Section -->
-    <section id="quem-somos" class="py-12 md:py-16 lg:py-20 bg-quemsomos bg-cover bg-center bg-no-repeat">
+    <section id="quem-somos" class="py-12 md:py-16 lg:py-24 bg-quemsomos bg-cover bg-center bg-no-repeat">
         <div class="max-w-[1280px] mx-auto px-4 md:px-6">
-            <h2 class="text-3xl md:text-6xl font-primary text-primary font-bold mb-6 md:mb-20">Quem Somos</h2>
+            <h2 class="text-3xl md:text-6xl font-primary text-primary font-bold mb-6 md:mb-24">Quem Somos</h2>
             <p class="text-base md:text-2xl font-secondary text-white leading-relaxed max-w-2xl">
                 Fundada em 2010 por Adriano Alves, nossa barbearia nasceu de uma paixão genuína pela arte
                 da barbearia tradicional combinada com técnicas modernas. Com mais de uma década de
@@ -322,12 +323,12 @@
                 <!-- Endereço -->
                 <div class="text-start">
                     <h3 class="text-lg md:text-2xl font-semibold mb-4 font-secondary text-primary">Endereço</h3>
-                    <p class="text-white mb-6 text-xl">
+                    <p class="text-white mb-6 text-xl font-secondary">
                         Avenida Getúlio Vargas, 123<br>
                         Centro - SFeira de Santana - Ba<br>
                     </p>
                     <a href="#" class="inline-flex items-center px-6 py-2 border-2 border-white text-white rounded-full 
-                     hover:bg-gray-01 transition-colors duration-300">
+                     hover:bg-secondary hover:text-black_secondary transition-colors duration-300">
                         <i class="fas fa-map-marker-alt mr-2"></i>
                         Localização
                     </a>
@@ -335,38 +336,38 @@
 
                 <!-- Horário -->
                 <div class="text-center">
-                    <h3 class="text-xl font-bold mb-4">Horário de Funcionamento</h3>
-                    <div class="text-gray-600">
-                        <p class="mb-4">
-                            <strong>Segunda a Sexta</strong><br>
-                            08:00 às 20:00
-                        </p>
-                        <p>
-                            <strong>Sábado</strong><br>
-                            08:00 às 20:00
-                        </p>
+                    <h3 class="text-lg md:text-2xl font-semibold mb-4 font-secondary text-primary">Horário de Funcionamento</h3>
+                    <div class="font-secondary text-white text-xl">
+                        <p class=" mb-3">
+                            Segunda a Sexta - 07 às 20hrs
+                        </p> <hr>
+                        <p class="my-3">
+                            Sábado - 07 às 16hrs
+                        </p> <hr>
                     </div>
                 </div>
 
                 <!-- Contatos -->
-                <div class="text-center">
-                    <h3 class="text-xl font-bold mb-4">Contatos</h3>
-                    <p class="text-gray-600 mb-4">
-                        contato@adrianoalves.com
-                    </p>
-                    <a href="#" class="inline-flex items-center text-gray-600 hover:text-gray-900 mb-6">
-                        <i class="fab fa-whatsapp text-2xl mr-2"></i>
-                        (11) 99999-9999
-                    </a>
-                    <div class="flex justify-center space-x-4">
-                        <a href="#" class="text-gray-600 hover:text-gray-900">
-                            <i class="fab fa-instagram text-2xl"></i>
+                <div class="text-end">
+                    <h3 class="text-lg md:text-2xl font-semibold mb-4 font-secondary text-primary">Contatos</h3>
+                    <div class="text-white font-secondary text-xl">
+                        <a href="#" class="inline-flex items-center hover:text-primary mb-1">
+                            <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                            75 98846-0046
                         </a>
-                        <a href="#" class="text-gray-600 hover:text-gray-900">
-                            <i class="fab fa-facebook text-2xl"></i>
+                        <p class="mb-4">
+                            contato@adrianoalves.com.br
+                        </p>
+                    </div>
+                    <div class="flex justify-end space-x-4">
+                        <a href="#">
+                            <img src="/img/icon_insta_footer.svg" alt="Icone Instagram">
                         </a>
-                        <a href="#" class="text-gray-600 hover:text-gray-900">
-                            <i class="fab fa-x-twitter text-2xl"></i>
+                        <a href="#">
+                            <img src="/img/icon_X_footer.svg" alt="Icone X">
+                        </a>
+                        <a href="#">
+                            <img src="/img/icon_face_footer.svg" alt="Icone Face">
                         </a>
                     </div>
                 </div>
@@ -375,18 +376,18 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-6">
+    <footer class="bg-background text-white py-6">
         <div class="max-w-[1280px] mx-auto px-4 md:px-6">
             <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                <div class="text-xl md:text-2xl font-bold">
-                    Adriano Alves
-                </div>
-                <div class="text-center text-sm md:text-base text-gray-400">
+                <a href="#home">
+                    <img class="w-32" src="img/logo.png" alt="Logomarca">
+                </a>
+                <div class="text-center text-sm md:text-base text-white">
                     © 2024 Adriano Alves. Todos os direitos reservados.
                 </div>
-                <div class="text-base md:text-lg font-semibold">
-                    RomaTorres
-                </div>
+                <a href="#">
+                    <img src="img/logo-roma.svg" alt="Logo Parceiro">
+                </a>
             </div>
         </div>
     </footer>

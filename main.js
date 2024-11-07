@@ -1,4 +1,4 @@
-import "./style.css";
+/* import "./style.css"; */
 
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.getElementById("header");
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute("href"));
       if (target) {
-        const headerOffset = 128;
+        const headerOffset = 127;
         const elementPosition = target.getBoundingClientRect().top;
         const offsetPosition =
           elementPosition + window.pageYOffset - headerOffset;
