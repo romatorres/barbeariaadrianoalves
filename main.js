@@ -1,4 +1,4 @@
-import "./style.css";
+import "./styles/style.css";
 
 document.addEventListener("DOMContentLoaded", function () {
   const header = document.getElementById("header");
