@@ -44,7 +44,7 @@
   display: none; /* Esconde por padrão, mostra apenas em mobile */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hamburger-menu {
     display: block;
   }

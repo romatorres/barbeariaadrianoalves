@@ -22,10 +22,10 @@
     <!-- Header -->
     <header id="header" class="fixed w-full z-50 transition-colors duration-300">
         <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center h-32">
-            <a href="#home"><img src="src/img/logo.png" alt="Logo Marca"></a>
+            <a href="#home"><img class="lg:w-64 md:w-56 w-32"  src="src/img/logo.png" alt="Logo Marca"></a>
 
             <!-- Menu Desktop -->
-            <nav class="hidden md:block">
+            <nav class="hidden lg:block">
                 <ul class="flex space-x-8">
                     <li><a href="#home" class="text-secondary font-semibold hover:text-primary">HOME</a></li>
                     <li><a href="#servicos" class="text-secondary font-semibold hover:text-primary">SERVIÇOS</a></li>
@@ -38,7 +38,7 @@
             </nav>
 
             <!-- Botão Menu Mobile -->
-            <div class="hamburger-menu md:hidden" aria-label="Menu" aria-expanded="false">
+            <div class="hamburger-menu lg:hidden" aria-label="Menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -76,14 +76,14 @@
     <section id="home" class="relative h-[600px] md:h-[700px] lg:h-[800px] bg-hero bg-cover bg-center bg-no-repeat">
         <div class="absolute inset-0 bg-background bg-opacity-50"></div>
         <div class="relative max-w-[1280px] mx-auto px-4 md:px-6 h-full flex items-center">
-            <div class="text-white w-full md:w-3/4 lg:w-3/4 mt-32">
-                <h1 class="text-3xl md:text-4xl lg:text-8xl font-primary text-primary mb-6">Corte
+            <div class="text-white w-full lg:w-4/5 mt-32">
+                <h1 class="lg:text-start text-center text-4xl md:text-6xl lg:text-8xl font-primary text-primary mb-6">Corte
                     perfeito, estilo único!
                 </h1>
-                <p class="text-base md:text-lg lg:text-4xl mb-20 max-w-5xl font-secondary text-secondary">Desperte seu
+                <p class="lg:text-start text-center text-2xl md:text-3xl lg:text-4xl mb-20 max-w-5xl font-secondary text-secondary">Desperte seu
                     estilo com nossos serviços personalizados. Agende agora seu atendimento e transforme sua
                     aparência...</p>
-                <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-24">
+                <div class="flex flex-col sm:flex-row items-center lg:justify-start md:justify-center gap-4 sm:gap-24">
                     <a href="#" class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center
                      hover:bg-secondary transition-colors duration-300">
                         AGENDE UM HORÁRIO
