@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Barbearia Adriano Alves - Serviços de barbearia profissional">
+    <meta name="keywords" content="barbearia, corte masculino, barba, corte feminino, Bahia, Feira de Santana">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Ubuntu&family=Nunito:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="src/css/output.css">
+    <title>Barbearia Adriano Alves</title>
+</head>
+
+<body>
+    <!-- Botão WhatsApp -->
+    <div>
+        <a href="https://wa.me/75988460046" target="_blank" class="whatsapp-button">
+            <img src="src/img/whats.svg" alt="WhatsApp">
+        </a>
+
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="fixed w-full z-50 transition-colors duration-300">
+        <div class="max-w-[1280px] mx-auto px-6 flex justify-between items-center h-28">
+            <a href="#home"><img class="lg:w-64 md:w-60 w-40" src="src/img/logo.png" alt="Logo Marca"></a>
+
+            <!-- Menu Desktop -->
+            <nav class="hidden lg:block">
+                <ul class="flex space-x-8">
+                    <li><a href="#home" class="nav-link text-secondary font-semibold hover:text-primary">HOME</a></li>
+                    <li><a href="#servicos"
+                            class="nav-link text-secondary font-semibold hover:text-primary">SERVIÇOS</a></li>
+                    <li><a href="#quem-somos" class="nav-link text-secondary font-semibold hover:text-primary">QUEM
+                            SOMOS</a></li>
+                    <li><a href="#nosso-time" class="nav-link text-secondary font-semibold hover:text-primary">NOSSO
+                            TIME</a></li>
+                    <li><a href="#contatos"
+                            class="nav-link text-secondary font-semibold hover:text-primary">CONTATOS</a></li>
+                </ul>
+            </nav>
+
+            <!-- Botão Menu Mobile -->
+            <div class="hamburger-menu lg:hidden" aria-label="Menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Menu Mobile -->
+        <nav class="mobile-menu">
+            <ul class="flex flex-col items-center py-6 space-y-4">
+                <li class="w-full">
+                    <a href="#home"
+                        class="mobile-link text-secondary hover:text-primary block py-2 text-center text-lg">Home</a>
+                </li>
+                <li class="w-full">
+                    <a href="#servicos"
+                        class="mobile-link text-secondary hover:text-primary block py-2 text-center text-lg">Serviços</a>
+                </li>
+                <li class="w-full">
+                    <a href="#quem-somos"
+                        class="mobile-link text-secondary hover:text-primary block py-2 text-center text-lg">Quem
+                        Somos</a>
+                </li>
+                <li class="w-full">
+                    <a href="#nosso-time"
+                        class="mobile-link text-secondary hover:text-primary block py-2 text-center text-lg">Nosso
+                        Time</a>
+                </li>
+                <li class="w-full">
+                    <a href="#contatos"
+                        class="mobile-link text-secondary hover:text-primary block py-2 text-center text-lg">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative h-[640px] md:h-[680px] lg:h-[800px] bg-hero bg-cover bg-center bg-no-repeat">
+        <div class="absolute inset-0 bg-background bg-opacity-50"></div>
+        <div class="relative max-w-[1280px] mx-auto px-4 md:px-6 h-full flex items-center">
+            <div class="text-white w-full lg:w-4/5 mt-32">
+                <h1 class="lg:text-start text-center text-4xl md:text-6xl lg:text-8xl font-primary text-primary mb-6">
+                    Corte
+                    perfeito, estilo único!
+                </h1>
+                <p
+                    class="lg:text-start text-center text-2xl md:text-3xl lg:text-4xl mb-20 max-w-5xl font-secondary text-secondary">
+                    Desperte seu
+                    estilo com nossos serviços personalizados. Agende agora seu atendimento e transforme sua
+                    aparência...</p>
+                <div class="flex flex-col md:flex-row items-center lg:justify-start md:justify-center gap-10 md:gap-24">
+                    <a href="https://avec.app/adrianoalves/" target="_blank" class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center
+                     hover:bg-secondary transition-colors duration-300">
+                        AGENDE UM HORÁRIO
+                    </a>
+                    <div class="flex space-x-6">
+                        <a href="https://www.instagram.com/adriano.alves.barbearia/" target="_blank"><img src="src/img/icon_insta.svg" alt="Icone Instagam"></a>
+                        <a href="#"><img src="src/img/icon_X.svg" alt="Icone Instagam"></a>
+                        <a href="#"><img src="src/img/icon_face.svg" alt="Icone Instagam"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-12 md:py-16 lg:py-20 bg-service bg-cover bg-center bg-no-repeat">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+            <div class="mb-16 md:mb-20 flex flex-col items-center">
+                <h2 class="text-3xl md:text-6xl font-primary font-normal text-black_secondary mb-3">Serviços</h2>
+                <img class="w-24 md:w-auto" src="src/img/bigode.svg" alt="Bigode abaixo do titulo Serviços">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11 mb-10 md:mb-20">
+                <!-- Card 1 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <i class="fas fa-cut text-3xl text-primary"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Corte Moderno
+                    </h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Cortes modernos personalizados para seu estilo, incluindo
+                        degradê, undercut e texturas contemporâneas.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 45,00</span></p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <img class="w-8" src="src/img/man_clear.svg" alt="Icone Man">
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Barba
+                        Tradicional</h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Modelagem completa da barba com toalha quente, óleo
+                        essencial e finalização perfeita.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 35,00</span></p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <i class="fas fa-shower text-4xl text-primary"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Hidratação</h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Tratamento completo para cabelo e barba com produtos
+                        premium para máxima hidratação.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 55,00</span></p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <i class="fa-solid fa-fill-drip text-4xl text-primary"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Coloração</h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Coloração profissional para cabelo e barba com produtos de
+                        alta qualidade.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 70,00</span></p>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <img class="w-10" src="src/img/woman_clear.svg" alt="">
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Tratamento
+                        Capilar</h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Tratamentos especializados para queda, oleosidade e
+                        fortalecimento dos fios.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 85,00</span></p>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="relative bg-background rounded-lg shadow-xl p-6 md:p-8 flex flex-col h-full">
+                    <div class="flex justify-center absolute top-[-28px] left-[40%]">
+                        <div class="flex justify-center items-center bg-background w-20 h-20 rounded-full">
+                            <i class="fas fa-fire text-4xl text-primary"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-lg md:text-3xl font-secondary font-semibold mt-8 mb-3 text-primary">Combo Completo
+                    </h3>
+                    <p class="text-secondary font-tertiary mb-4 flex-grow">Corte + barba + hidratação. O pacote completo para você
+                        sair ainda mais elegante.</p>
+                    <hr class="h-1 mb-3">
+                    <p class="text-lg md:text-xl font-medium font-secondary text-secondary">A partir de <span
+                            class="font-semibold text-2xl text-primary"> R$ 125,00</span></p>
+                </div>
+            </div>
+
+            <!-- Botões -->
+            <div class="flex flex-col sm:flex-row justify-center gap-6 sm:space-x-6 mt-12 md:mt-auto">
+                <a href="https://avec.app/adrianoalves/" target="_blank" class="w-full sm:w-auto bg-background text-secondary px-12 py-4 rounded-full font-semibold text-center
+                     hover:bg-primary hover:text-background transition-colors duration-300">
+                    AGENDE UM HORÁRIO
+                </a>
+                <a href="#" class="border-2 border-black_secondary text-black_secondary px-12 py-4 rounded-full font-semibold text-center
+                 hover:bg-background hover:text-white transition-colors duration-300">
+                    TODOS OS SERVIÇOS
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quem Somos Section -->
+    <section id="quem-somos">
+        <div class="bg-background w-full">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+            <!-- Titulo -->
+            <div class="mt-12 md:mt-16 lg:mt-20 mb-12 md:mb-16 flex flex-col items-center">
+                <h2 class="text-3xl md:text-6xl font-primary font-normal text-primary mb-3">Quem Somos</h2>
+                <img class="w-24 md:w-auto" src="src/img/bigode_primary.svg" alt="Bigode abaixo do titulo" />
+            </div>
+            
+            <!-- Seção Caracteristicas -->
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center gap-0 lg:gap-10 mb-16">
+                <!-- Col 1 -->
+                <div class="p-8 text-center max-w-96">
+                    <div class="flex justify-center mb-6">
+                        <img class="md:w-24 w-20" src="src/img/iconMedalha.svg" alt="Icone Medalha">
+                    </div>
+                    <h3 class="text-xl font-secondary font-semibold mb-4 text-primary">TIME QUALIFICADO</h3>
+                    <p class="text-secondary font-tertiary">Nossa equipe de profissionais é apaixonada pelo que faz. Com criatividade,
+                        proporcionamos cortes e serviços de alta qualidade, priorizando a satisfação dos nossos
+                        clientes.</p>
+                </div>
+                <!-- Col 2 -->
+                <div class="p-8 text-center max-w-96">
+                    <div class="flex justify-center mb-6">
+                        <img class="md:w-24 w-20" src="src/img/iconProdutos.svg" alt="Icone Produtos">
+                    </div>
+                    <h3 class="text-xl font-secondary font-semibold mb-4 text-primary">PRODUTOS PREMIUM</h3>
+                    <p class="text-secondary font-tertiary">Na nossa barbearia, oferecemos produtos de alta qualidade, como pomadas,
+                        óleos e loções, todos formulados para cuidar do cabelo e da barba, garantindo estilo e saúde
+                        para nossos clientes.</p>
+                </div>
+                <!-- Col 3 -->
+                <div class="p-8 text-center max-w-96">
+                    <div class="flex justify-center mb-6">
+                        <img class="md:w-24 w-20" src="src/img/iconAmbiente.svg" alt="Icone Ambiente">
+                    </div>
+                    <h3 class="text-xl font-secondary font-semibold mb-4 text-primary">AMBIENTE AGRADÁVEL</h3>
+                    <p class="text-secondary font-tertiary">A barbearia está situada no centro da cidade, com um ambiente acolhedor e
+                        descontraído, ideal para relaxar e cuidar do visual. Venha nos visitar e aproveite a
+                        experiência!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Historia e Foto-->
+        <div class="bg-black_secondary w-full">
+            <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-24 items-center py-12 md:py-16 lg:py-20">
+                    <!-- Foto - Aparece primeiro no mobile -->
+                    <div class="lg:col-span-4 col-span-12 lg:order-2 justify-items-center lg:px-0 px-3">
+                        <img 
+                            class="md:w-80 w-full object-cover rounded-xl" 
+                            src="/src/img/adriano_quemsomos.jpg" 
+                            alt="Fundador da Barbearia" 
+                        />
+                    </div>
+                    <!-- Texto - Aparece segundo no mobile -->
+                    <div class="lg:col-span-8 col-span-12 lg:order-1 lg:text-left text-center">
+                        <h3 class="text-2xl md:text-4xl font-secondary font-semibold mb-8 text-primary">NOSSA HISTÓRIA</h3>
+                        <p class="text-secondary font-tertiary mb-16 text-lg">
+                            Desde 2006, a Barbearia Adriano Alves tem sido referência em cuidados para ambos os sexos em Feira de Santana.
+                            Fundada com a visão de oferecer serviços de alta qualidade em um ambiente acolhedor, nossa barbearia
+                            combina técnicas tradicionais com tendências modernas. Ao longo dos anos, construímos uma reputação
+                            sólida baseada na excelência do atendimento e na satisfação dos nossos clientes.
+                            <br>
+                            <br>
+                            <span class="font-semibold text-xl">Adriano Alves</span> - <span class="text-base">Diretor e Fundador</span>
+                        </p>
+                        <div class="text-center md:text-left">
+                            <a 
+                                href="https://avec.app/adrianoalves/" 
+                                target="_blank" 
+                                class="inline-flex items-center bg-primary text-black_secondary px-8 py-3 rounded-full font-semibold hover:bg-secondary transition-colors duration-300"
+                            >
+                                AGENDE UM HORÁRIO
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosso Time Section -->
+    <section id="nosso-time" class="py-12 md:py-16 lg:py-20 bg-service bg-cover bg-center bg-no-repeat">
+        <div class=" max-w-[1280px] mx-auto px-4 md:px-6">
+            <div class="mb-8 md:mb-20 flex flex-col items-center">
+                <h2 class="text-3xl md:text-6xl font-primary font-normal text-black_secondary mb-3">Nosso Time</h2>
+                <img class="w-24 md:w-auto" src="src/img/bigode.svg" alt="Bigode abaixo do titulo Serviços">
+            </div>
+            <p
+                class="text-lg md:text-xl text-background font-tertiary md:font-semibold font-medium text-center max-w-2xl mx-auto mb-8 md:mb-20">
+                Conheça nossa equipe de profissionais altamente qualificados, prontos para
+                oferecer o melhor em serviços de barbearia, manicure e salão de beleza, unisex.
+            </p>
+            <div></div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card Membro 1 -->
+                <div class="bg-background rounded-lg shadow-lg overflow-hidden relative">
+                    <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_insta_square.svg" alt="Icone Instagram">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_X_square.svg" alt="Icone X">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_face_square.svg" alt="Icone Facebook">
+                        </a>
+                    </div>
+                    <div class="aspect-auto"> <!-- Imagem 300X400 -->
+                        <img src="/src/img/time01.jpg" alt="Membro da Equipe" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-4 md:p-4 text-center">
+                        <h3 class="text-lg md:text-xl font-semibold  text-secondary">ADRIANO ALVES</h3>
+                        <p class="text-primary">Barbeiro</p>
+                    </div>
+                </div>
+
+                <!-- Card Membro 2 -->
+                <div class="bg-background rounded-lg shadow-lg overflow-hidden relative">
+                    <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_insta_square.svg" alt="Icone Instagram">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_X_square.svg" alt="Icone X">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_face_square.svg" alt="Icone Facebook">
+                        </a>
+                    </div>
+                    <div class="aspect-auto"> <!-- Imagem 300X400 -->
+                        <img src="/src/img/time02.jpg" alt="Membro da Equipe" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-4 md:p-4 text-center">
+                        <h3 class="text-lg md:text-xl font-semibold  text-secondary">MATHEUS MOREIRA</h3>
+                        <p class="text-primary">Barbeiro</p>
+                    </div>
+                </div>
+
+                <!-- Card Membro 3 -->
+                <div class="bg-background rounded-lg shadow-lg overflow-hidden relative">
+                    <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_insta_square.svg" alt="Icone Instagram">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_X_square.svg" alt="Icone X">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_face_square.svg" alt="Icone Facebook">
+                        </a>
+                    </div>
+                    <div class="aspect-auto"> <!-- Imagem 300X400 -->
+                        <img src="/src/img/time03.jpg" alt="Membro da Equipe" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-4 md:p-4 text-center">
+                        <h3 class="text-lg md:text-xl font-semibold  text-secondary">ANGÉLICA ALVES</h3>
+                        <p class="text-primary">Secretária</p>
+                    </div>
+                </div>
+
+                <!-- Card Membro 4 -->
+                <div class="bg-background rounded-lg shadow-lg overflow-hidden relative">
+                    <div class="absolute top-4 right-4 flex flex-col space-y-4 z-10">
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_insta_square.svg" alt="Icone Instagram">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_X_square.svg" alt="Icone X">
+                        </a>
+                        <a href="#" class="w-8 h-8 flex items-center justify-center">
+                            <img src="/src/img/icon_face_square.svg" alt="Icone Facebook">
+                        </a>
+                    </div>
+                    <div class="aspect-auto"> <!-- Imagem 300X400 -->
+                        <img src="/src/img/time04.jpg" alt="Membro da Equipe" class="w-full h-full object-cover" />
+                    </div>
+                    <div class="p-4 md:p-4 text-center">
+                        <h3 class="text-lg md:text-xl font-semibold  text-secondary">CARLA OLIVEIRA</h3>
+                        <p class="text-primary">Manicure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contatos -->
+    <section id="contatos" class="py-12 md:py-16 lg:py-20 bg-black_secondary">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+            <div class="mb-12 md:mb-20 flex flex-col items-center">
+                <h2 class="text-3xl md:text-6xl font-primary font-normal text-secondary mb-3">Contatos</h2>
+                <img class="w-24 md:w-auto" src="src/img/bigode_light.svg" alt="Bigode abaixo do titulo Serviços">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Endereço -->
+                <div class="md:text-start text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 font-secondary text-primary">Endereço</h3>
+                    <p class="text-white mb-6 md:text-xl text-lg font-secondary">
+                        Avenida Getúlio Vargas, 123<br>
+                        Centro - SFeira de Santana - Ba<br>
+                    </p>
+                    <a href="https://maps.app.goo.gl/kqbJLGPwqb2mLnwZ9?g_st=im" target="_blank" class="inline-flex items-center px-6 py-2 border-2 border-white text-white rounded-full 
+                     hover:bg-secondary hover:text-black_secondary transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt mr-2"></i>
+                        Localização
+                    </a>
+                </div>
+
+                <!-- Horário -->
+                <div class="text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 font-secondary text-primary">Horário de
+                        Funcionamento</h3>
+                    <div class="font-secondary text-white md:text-xl text-lg">
+                        <p class=" mb-3">
+                            Segunda a Sexta - 07 às 20hrs
+                        </p>
+                        <hr>
+                        <p class="my-3">
+                            Sábado - 07 às 16hrs
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <!-- Contatos -->
+                <div class="md:text-end text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 font-secondary text-primary">Contatos</h3>
+                    <div class="text-white font-secondary md:text-xl text-lg">
+                        <a href="https://wa.me/75988460046" target="_blank"
+                            class="inline-flex items-center hover:text-primary mb-1">
+                            <i class="fab fa-whatsapp text-2xl mr-3"></i>
+                            75 98846-0046
+                        </a>
+                        <p class="mb-4">
+                            contato@adrianoalves.com.br
+                        </p>
+                    </div>
+                    <div class="flex md:justify-end justify-center space-x-4">
+                        <a href="https://www.instagram.com/adriano.alves.barbearia/">
+                            <img src="src/img/icon_insta_footer.svg" alt="Icone Instagram">
+                        </a>
+                        <a href="#">
+                            <img src="src/img/icon_X_footer.svg" alt="Icone X">
+                        </a>
+                        <a href="#">
+                            <img src="src/img/icon_face_footer.svg" alt="Icone Face">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-background text-white py-6">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+                <a href="#home">
+                    <img class="w-32" src="src/img/logo.png" alt="Logomarca">
+                </a>
+                <div class="text-center text-sm md:text-base text-white">
+                    © 2024 Adriano Alves. Todos os direitos reservados.
+                </div>
+                <a href="https://wa.me/75991340520" target="_blank">
+                    <img src="src/img/logo-roma.svg" alt="Logo Parceiro">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
