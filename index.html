@@ -335,50 +335,50 @@
         </div>
     </section>
 
-    <!-- Galeria Section -->
+
+
     <section id="galeria" class="py-12 md:py-16 lg:py-20 bg-slate-50">
-
         <!-- Modal/Lightbox -->
-        <div id="lightbox" class="hidden">
-            <div class="flex items-center justify-center fixed inset-0 bg-black bg-opacity-90 z-50">
-                <button id="prev-button"
-                    class="absolute left-4 text-white text-4xl hover:text-gray-300 transition-colors">&lt;</button>
-                <button id="next-button"
-                    class="absolute right-4 text-white text-4xl hover:text-gray-300 transition-colors">&gt;</button>
-                <button id="close-button"
-                    class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition-colors">&times;</button>
-
+        <div id="lightbox" class="hidden fixed inset-0 z-50">
+            <div class="fixed inset-0 bg-black bg-opacity-90"></div>
+            <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+                <button id="prev-button" class="absolute left-4 text-white text-4xl hover:text-gray-300 transition-colors">&lt;</button>
+                <button id="next-button" class="absolute right-4 text-white text-4xl hover:text-gray-300 transition-colors">&gt;</button>
+                <button id="close-button" class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition-colors">&times;</button>
+    
                 <div class="max-w-4xl w-full mx-4">
                     <img id="lightbox-img" class="w-full h-auto max-h-[80vh] object-contain" src="" alt="">
                     <p id="lightbox-caption" class="text-white text-center mt-4 text-xl"></p>
                 </div>
             </div>
         </div>
-
+    
         <div class="max-w-[1280px] mx-auto px-4 md:px-6">
             <!-- Titulo -->
             <div class="mb-16 md:mb-20 flex flex-col items-center">
                 <h2 class="text-3xl md:text-6xl font-primary font-normal text-black_secondary mb-3">Galeria</h2>
                 <img class="w-24 md:w-auto" src="src/img/bigode.svg" alt="Bigode abaixo do titulo Serviços">
             </div>
+    
+            <!-- Grid da Galeria -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
-            <div class="columns-1 md:columns-2 lg:columns-3 gap-4">
-                <!-- Item 1 -->
-                <div class="relative overflow-hidden rounded-lg aspect-video group cursor-pointer mb-4">
+                <!-- Item  -->
+                <div class="relative overflow-hidden rounded-lg col-span-2 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaNoHyevGre5GlgscmyWFQdxZv3ODESIPCjH7A" alt="Imagem 1"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
                             class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             Abrir +</p>
                     </div>
-                </div>
+                </div> 
 
                 <!-- Item 2 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg col-span-1 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObawoDOmaJn2rhUSRXbe8IvBxlYoi7JKs1dWMq3" alt="Imagem 2"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -388,9 +388,9 @@
                 </div>
 
                 <!-- Item 3 -->
-                <div class="relative overflow-hidden rounded-lg aspect-[3/4] group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaJaJZiK5SaRGZXTrfxvoCskAqwe4y9ONn2FjK" alt="Imagem 3"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80  object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -400,9 +400,9 @@
                 </div>
 
                 <!-- Item 4 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg col-span-2 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaFoCO2qDGdRNtoiSxXErsPqIbwyKlU4QCJMjW" alt="Imagem 4"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -412,9 +412,9 @@
                 </div>
 
                 <!-- Item 5 -->
-                <div class="relative overflow-hidden rounded-lg row-span-2 aspect-[3/4] group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg col-span-2 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaMjTutRoSLNEfivk7HysYOFRKaDzt8TZlq62B" alt="Imagem 5"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -424,9 +424,9 @@
                 </div>
 
                 <!-- Item 6 -->
-                <div class="relative overflow-hidden rounded-lg aspect-[3/4] group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaG8316Zsu4rBtkJ7EXx0aiWUuqwHcZ6TgofYm" alt="Imagem 6"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -436,9 +436,9 @@
                 </div>
 
                 <!-- Item 7 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaqPZl7Ef17MTZlzgEh0NYUL6fyDH2BiSujbwa" alt="Imagem 7"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -448,9 +448,9 @@
                 </div>
 
                 <!-- Item 8 -->
-                <div class="relative overflow-hidden rounded-lg aspect-video group cursor-pointer mb-4">
-                    <img src="https://utfs.io/f/DEU1rIdQ4Oba97mmqHZ8Z1Fa4G0XYdsRoyWrNqietgh3Dcu2" alt="Imagem 8"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
+                    <img src="https://utfs.io/f/DEU1rIdQ4ObaB17CFghRgGP2Y0SKJLv67E8BWCuewHrm5lUk" alt="Imagem 8"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -459,9 +459,9 @@
                     </div>
                 </div>
                 <!-- Item 9 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
-                    <img src="https://utfs.io/f/DEU1rIdQ4ObaB17CFghRgGP2Y0SKJLv67E8BWCuewHrm5lUk" alt="Imagem 9"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
+                    <img src="https://utfs.io/f/DEU1rIdQ4Oba97mmqHZ8Z1Fa4G0XYdsRoyWrNqietgh3Dcu2" alt="Imagem 9"
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -471,9 +471,9 @@
                 </div>
 
                 <!-- Item 10 -->
-                <div class="relative overflow-hidden rounded-lg aspect-video group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg col-span-2 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaFp9ZHHDGdRNtoiSxXErsPqIbwyKlU4QCJMjW" alt="Imagem 10"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -483,9 +483,9 @@
                 </div>
 
                 <!-- Item 11 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4Obaw7j4x3wJn2rhUSRXbe8IvBxlYoi7JKs1dWMq" alt="Imagem 11"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -495,9 +495,9 @@
                 </div>
 
                 <!-- Item 12 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaMYNWeWoSLNEfivk7HysYOFRKaDzt8TZlq62B" alt="Imagem 12"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -507,9 +507,9 @@
                 </div>
 
                 <!-- Item 13 -->
-                <div class="relative overflow-hidden rounded-lg row-span-2 aspect-[3/4] group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg col-span-2 group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4Obavk5husCvM6G5l7bR8FJsAwI914SBVUrukaic" alt="Imagem 5"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -519,9 +519,9 @@
                 </div>
 
                 <!-- Item 14 -->
-                <div class="relative overflow-hidden rounded-lg aspect-video group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4ObaYd9c8ntrEbgBjPCXJHc4QV0s23F7wDG8RYzU" alt="Imagem 6"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -531,9 +531,9 @@
                 </div>
 
                 <!-- Item 15 -->
-                <div class="relative overflow-hidden rounded-lg aspect-square group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4Oba9ANFdKZ8Z1Fa4G0XYdsRoyWrNqietgh3Dcu2" alt="Imagem 6"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
@@ -543,9 +543,9 @@
                 </div>
 
                 <!-- Item 16 -->
-                <div class="relative overflow-hidden rounded-lg aspect-[3/4] group cursor-pointer mb-4">
+                <div class="relative overflow-hidden rounded-lg group cursor-pointer">
                     <img src="https://utfs.io/f/DEU1rIdQ4Obasjs9zUOBVKxneFbimjkzgsR2ZSy8lGCt5IHf" alt="Imagem 6"
-                        class="w-full object-cover transform transition-transform duration-500 group-hover:scale-110">
+                        class="w-full h-80 object-cover transform transition-transform duration-500 group-hover:scale-110">
                     <div
                         class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-opacity duration-300 flex items-center justify-center">
                         <p
