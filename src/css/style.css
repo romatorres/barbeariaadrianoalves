@@ -32,8 +32,8 @@ body {
 }
 
 .whatsapp-button img {
-  width: 54px; /* Tamanho do ícone */
-  height: 54px;
+  width: 60px; /* Tamanho do ícone */
+  height: 60px;
   border-radius: 50%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease; /* Animação ao passar o mouse */

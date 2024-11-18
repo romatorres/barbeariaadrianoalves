@@ -711,10 +711,6 @@ video {
   grid-column: span 12 / span 12;
 }
 
-.col-span-2 {
-  grid-column: span 2 / span 2;
-}
-
 .float-start {
   float: inline-start;
 }
@@ -2128,9 +2124,9 @@ video {
   background-color: rgb(226 194 68 / var(--tw-bg-opacity));
 }
 
-.bg-slate-50 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+  background-color: rgb(250 243 220 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-0 {
@@ -2994,9 +2990,9 @@ body {
 }
 
 .whatsapp-button img {
-  width: 54px;
+  width: 60px;
   /* Tamanho do ícone */
-  height: 54px;
+  height: 60px;
   border-radius: 50%;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
