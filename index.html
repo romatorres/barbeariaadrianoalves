@@ -14,7 +14,6 @@
     <meta property="og:url" content="https://barbeariaadrianoalves.com.br" />
     <meta property="og:site_name" content="Barbearia Adriano Alves" />
     <!-- Favicon -->
-    <!-- <link rel="icon" type="image/svg+xml" href="./src/favicon.svg" /> -->
     <link rel="shortcut icon" href="./src/favicon.ico" type="image/x-icon">
     <!-- Meta para Google -->
     <meta name="description" content="Barbearia Adriano Alves - Serviços de barbearia profissional">
@@ -23,7 +22,9 @@
     <!-- Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Ubuntu&family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poller+One&family=Ubuntu&family=Nunito:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- Styles CSS -->
     <link rel="stylesheet" href="src/css/output.css">
@@ -351,27 +352,29 @@
     <!-- Galeria Section -->
     <section id="galeria" class="py-12 md:py-16 lg:py-20 bg-white">
         <!-- Modal/Lightbox -->
-        <div id="lightbox" class="hidden fixed inset-0 z-50">
-            <div class="fixed inset-0 bg-black bg-opacity-90"></div>
+        <div id="lightbox" class="hidden fixed inset-0 z-50 bg-black bg-opacity-90">
             <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
-                <button id="prev-button" class="absolute left-4 text-white text-4xl hover:text-gray-300 transition-colors">&lt;</button>
-                <button id="next-button" class="absolute right-4 text-white text-4xl hover:text-gray-300 transition-colors">&gt;</button>
-                <button id="close-button" class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition-colors">&times;</button>
-    
+                <button id="prev-button"
+                    class="absolute left-4 text-white text-4xl hover:text-gray-300 transition-colors">&lt;</button>
+                <button id="next-button"
+                    class="absolute right-4 text-white text-4xl hover:text-gray-300 transition-colors">&gt;</button>
+                <button id="close-button"
+                    class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300 transition-colors">&times;</button>
+
                 <div class="max-w-4xl w-full mx-4">
                     <img id="lightbox-img" class="w-full h-auto max-h-[80vh] object-contain" src="" alt="">
                     <p id="lightbox-caption" class="text-white text-center mt-4 text-xl"></p>
                 </div>
             </div>
         </div>
-    
+
         <div class="max-w-[1280px] mx-auto px-4 md:px-6">
             <!-- Titulo -->
             <div class="mb-16 md:mb-20 flex flex-col items-center">
                 <h2 class="text-3xl md:text-6xl font-primary font-normal text-black_secondary mb-3">Galeria</h2>
                 <img class="w-24 md:w-auto" src="src/img/bigode.svg" alt="Bigode abaixo do titulo Serviços">
             </div>
-    
+
             <!-- Grid da Galeria -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
@@ -385,7 +388,7 @@
                             class="text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             Abrir +</p>
                     </div>
-                </div> 
+                </div>
 
                 <!-- Item 2 -->
                 <div class="relative overflow-hidden rounded-lg col-span-1 group cursor-pointer">
