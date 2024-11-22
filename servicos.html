@@ -36,12 +36,12 @@
     <!-- Header -->
     <header class="fixed z-50 w-full bg-background">
         <div class="max-w-[1280px] mx-auto px-6 ">   
-            <div class="flex justify-center items-center h-28 relative"> 
+            <div class="flex md:justify-center justify-start items-center h-28 relative"> 
             <div class="">   
                 <a href="index.html"><img class="lg:w-64 md:w-60 w-40" src="src/img/logo.png" alt="Logo Marca"></a>
             </div>
             <div class="absolute right-0">
-                <a href="index.html"><img src="src/img/Icon-Back.svg" alt="Botão voltar"></a>
+                <a href="index.html"><img class="lg:w-10 md:w-9 w-7" src="src/img/Icon-Back.svg" alt="Botão voltar"></a>
             </div>
         </div>
         </div>
@@ -50,150 +50,158 @@
     <!-- Todos os Serviços -->
     <section class="relative py-12 md:py-16 lg:py-20 bg-secondary">
         <div class="max-w-[1280px] mx-auto px-4 md:px-6">
-            <div class="mb-16 md:mb-20 flex flex-col items-center mt-28">
+            <div class="mb-12 md:mb-20 flex flex-col items-center mt-28">
                 <h2 class="text-3xl md:text-6xl font-primary font-normal text-black_secondary mb-3">Serviços</h2>
                 <img class="w-24 md:w-auto" src="src/img/bigode.svg" alt="Bigode abaixo do titulo Serviços">
             </div>
+
             <!-- Card 01 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-cabelo.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-cabelo.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Corte Masculino</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Corte Masculino</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 02 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-cabeloF.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-cabeloF.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Corte Feminino</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Corte Feminino</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 03 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-barba.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-barba.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Barba</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Barba</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 04 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-cabelobarba.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-cabelobarba.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Cabelo e Barba</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Cabelo é Barba</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 05 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-hidrata.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-hidrata.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Hidratação</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Hidratação</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 06 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-color.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-color.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Coloração</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Coloração</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Card 07 -->
-            <div class="flex justify-between bg-background rounded-lg px-10 py-8 mb-7">
-                <div class="flex gap-14 grow">
-                    <img src="src/img/icon-sobra.svg" alt="Icone Cabelo">
+            <div class="flex md:flex-row flex-col justify-between items-center bg-background rounded-lg lg:px-10 md:px-7 lg:py-8 md:py-6 py-8 mb-7">
+                <div class="flex md:flex-row flex-col items-center lg:gap-14 md:gap-10 gap-5 grow">
+                    <img class="lg:w-36 md:w-24 w-20" src="src/img/icon-sobra.svg" alt="Icone Cabelo">
                     <div>
-                        <h2 class="text-primary font-secondary text-4xl font-semibold mb-7">Sobrancelhas</h2>
-                        <h4 class="font-secondary text-2xl text-secondary font-medium mb-1">Duração media: 30min</h4>
-                        <p class="font-tertiary text-white text-lg font-medium">Estilo personalizado com as últimas
+                        <h2 class="text-primary font-secondary md:text-start text-center lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-3 mb-4">Sobrancelhas</h2>
+                        <h4 class="font-secondary md:text-start text-center lg:text-2xl md:text-xl text-xl text-secondary font-medium lg:mb-1 mb-0">Duração media: 30min</h4>
+                        <p class="font-tertiary text-white md:text-start text-center lg:text-lg md:text-base font-medium">Estilo personalizado com as últimas
                             tendências.</p>
                     </div>
                 </div>
-                <div class="flex flex-col items-center">
+                <div class="flex flex-col items-center md:mt-0 mt-7">
                     <p class="font-tertiary text-white font-medium">A partir de:</p>
-                    <h3 class="text-primary font-secondary text-4xl font-semibold mb-7">R$45,00</h3>
+                    <h3 class="text-primary font-secondary lg:text-4xl md:text-3xl text-3xl font-semibold lg:mb-6 md:mb-4 mb-6">R$45,00</h3>
                     <a href="https://avec.app/adrianoalves/" target="_blank"
-                        class="w-full sm:w-auto bg-primary text-black_secondary px-12 py-4 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
+                        class="w-full bg-primary text-black_secondary lg:px-12 md:px-8 px-10 lg:py-4 md:py-3 py-3 rounded-full font-semibold text-center hover:bg-white transition-colors duration-300">
                         AGENDAR
                     </a>
                 </div>
             </div>
+
             <!-- Botões -->
             <div class="flex flex-col sm:flex-row justify-center gap-6 sm:space-x-6 mt-12 md:mt-20">
                 <a href="https://avec.app/adrianoalves/" target="_blank" class="w-full sm:w-auto bg-background text-secondary px-12 py-4 rounded-full font-semibold text-center

@@ -774,6 +774,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -848,6 +853,18 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .box-border {
@@ -1015,6 +1032,10 @@ video {
 
 .w-40 {
   width: 10rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-8 {
@@ -1623,6 +1644,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2357,16 +2382,18 @@ video {
   padding-bottom: 2rem;
 }
 
-.pl-4 {
-  padding-left: 1rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pl-5 {
   padding-left: 1.25rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
 }
 
 .text-left {
@@ -3316,6 +3343,18 @@ body {
     margin-top: auto;
   }
 
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:h-\[680px\] {
     height: 680px;
   }
@@ -3330,6 +3369,10 @@ body {
 
   .md\:w-80 {
     width: 20rem;
+  }
+
+  .md\:w-9 {
+    width: 2.25rem;
   }
 
   .md\:w-auto {
@@ -3356,6 +3399,10 @@ body {
     gap: 6rem;
   }
 
+  .md\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -3378,6 +3425,35 @@ body {
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:text-start {
+    text-align: start;
   }
 
   .md\:text-2xl {
@@ -3436,6 +3512,14 @@ body {
     margin-top: 5rem;
   }
 
+  .lg\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .lg\:mb-1 {
+    margin-bottom: 0.25rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3448,12 +3532,24 @@ body {
     height: 800px;
   }
 
+  .lg\:w-10 {
+    width: 2.5rem;
+  }
+
+  .lg\:w-36 {
+    width: 9rem;
+  }
+
   .lg\:w-4\/5 {
     width: 80%;
   }
 
   .lg\:w-64 {
     width: 16rem;
+  }
+
+  .lg\:w-\[140px\] {
+    width: 140px;
   }
 
   .lg\:grid-cols-12 {
@@ -3484,6 +3580,10 @@ body {
     gap: 6rem;
   }
 
+  .lg\:gap-14 {
+    gap: 3.5rem;
+  }
+
   .lg\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
@@ -3492,6 +3592,26 @@ body {
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .lg\:text-left {
@@ -3514,6 +3634,16 @@ body {
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
