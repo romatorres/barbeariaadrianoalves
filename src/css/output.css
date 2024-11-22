@@ -774,9 +774,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mb-1 {
@@ -851,20 +850,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .box-border {
@@ -1630,12 +1621,12 @@ video {
   gap: 3rem;
 }
 
-.gap-14 {
-  gap: 3.5rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-6 {
@@ -1644,10 +1635,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2367,6 +2354,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2380,16 +2372,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .pl-5 {
@@ -3331,6 +3313,18 @@ body {
     margin-bottom: 5rem;
   }
 
+  .md\:mb-3 {
+    margin-bottom: 0.75rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:mt-16 {
     margin-top: 4rem;
   }
@@ -3341,18 +3335,6 @@ body {
 
   .md\:mt-auto {
     margin-top: auto;
-  }
-
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
-  .md\:mb-3 {
-    margin-bottom: 0.75rem;
-  }
-
-  .md\:mt-0 {
-    margin-top: 0px;
   }
 
   .md\:h-\[680px\] {
@@ -3395,12 +3377,12 @@ body {
     justify-content: center;
   }
 
-  .md\:gap-24 {
-    gap: 6rem;
-  }
-
   .md\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .md\:gap-24 {
+    gap: 6rem;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -3422,19 +3404,9 @@ body {
     padding-right: 1.5rem;
   }
 
-  .md\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-
   .md\:px-7 {
     padding-left: 1.75rem;
     padding-right: 1.75rem;
-  }
-
-  .md\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
   }
 
   .md\:px-8 {
@@ -3442,9 +3414,14 @@ body {
     padding-right: 2rem;
   }
 
-  .md\:py-7 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .md\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .md\:py-6 {
@@ -3508,16 +3485,16 @@ body {
     grid-column: span 8 / span 8;
   }
 
-  .lg\:mt-20 {
-    margin-top: 5rem;
+  .lg\:mb-1 {
+    margin-bottom: 0.25rem;
   }
 
   .lg\:mb-6 {
     margin-bottom: 1.5rem;
   }
 
-  .lg\:mb-1 {
-    margin-bottom: 0.25rem;
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
 
   .lg\:block {
@@ -3548,10 +3525,6 @@ body {
     width: 16rem;
   }
 
-  .lg\:w-\[140px\] {
-    width: 140px;
-  }
-
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -3576,12 +3549,12 @@ body {
     gap: 2.5rem;
   }
 
-  .lg\:gap-24 {
-    gap: 6rem;
-  }
-
   .lg\:gap-14 {
     gap: 3.5rem;
+  }
+
+  .lg\:gap-24 {
+    gap: 6rem;
   }
 
   .lg\:px-0 {
@@ -3589,9 +3562,9 @@ body {
     padding-right: 0px;
   }
 
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .lg\:px-12 {
@@ -3599,14 +3572,14 @@ body {
     padding-right: 3rem;
   }
 
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .lg\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .lg\:py-8 {
@@ -3626,6 +3599,11 @@ body {
     text-align: end;
   }
 
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -3634,11 +3612,6 @@ body {
   .lg\:text-8xl {
     font-size: 6rem;
     line-height: 1;
-  }
-
-  .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .lg\:text-lg {
