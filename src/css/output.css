@@ -3026,7 +3026,7 @@ body {
 
 .bg-hero {
   /* background-image: url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80"); */
-  background-image: url(/src/img/bg-hero.jpg);
+  background-image: url(/src/img/bg-hero.jpeg);
 }
 
 .bg-service {
@@ -3627,8 +3627,8 @@ body {
     line-height: 2.5rem;
   }
 
-  .lg\:text-\[236px\] {
-    font-size: 236px;
+  .lg\:text-\[136px\] {
+    font-size: 136px;
   }
 
   .lg\:text-lg {
@@ -3636,8 +3636,12 @@ body {
     line-height: 1.75rem;
   }
 
-  .lg\:text-\[136px\] {
-    font-size: 136px;
+  .lg\:text-\[134px\] {
+    font-size: 134px;
+  }
+
+  .lg\:text-\[234px\] {
+    font-size: 234px;
   }
 }
 
