@@ -12,6 +12,7 @@ module.exports = {
         primary: ["Poller One", "cursive"],
         secondary: ["Ubuntu", "sans-serif"],
         tertiary: ["Nunito", "sans-serif"],
+        quaternary: ["Bebas Neue", "sans-serif"],
       },
       colors: {
         primary: "#E2C244",
