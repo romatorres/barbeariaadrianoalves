@@ -2465,8 +2465,8 @@ video {
   line-height: 2.5rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -3025,7 +3025,6 @@ body {
 }
 
 .bg-hero {
-  /* background-image: url("https://images.unsplash.com/photo-1585747860715-2ba37e788b70?q=80"); */
   background-image: url(/src/img/bg-hero.jpeg);
 }
 
@@ -3627,21 +3626,13 @@ body {
     line-height: 2.5rem;
   }
 
-  .lg\:text-\[136px\] {
-    font-size: 136px;
+  .lg\:text-\[134px\] {
+    font-size: 134px;
   }
 
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[134px\] {
-    font-size: 134px;
-  }
-
-  .lg\:text-\[234px\] {
-    font-size: 234px;
   }
 }
 
